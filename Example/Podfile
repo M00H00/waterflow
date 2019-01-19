@@ -1,12 +1,12 @@
+source ‘https://github.com/M00H00/components.git’
+source ‘https://github.com/CocoaPods/specs.git’
+
 use_frameworks!
 
 platform :ios, '8.0'
 
-target 'waterflow_Example' do
-  pod 'waterflow', :path => '../'
-
-  target 'waterflow_Tests' do
-    inherit! :search_paths
+target 'testComponents' do
+  pod 'waterflow',
 
     
   end
