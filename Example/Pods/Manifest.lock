@@ -1,0 +1,16 @@
+PODS:
+  - waterflow (0.1.0)
+
+DEPENDENCIES:
+  - waterflow (from `../`)
+
+EXTERNAL SOURCES:
+  waterflow:
+    :path: ../
+
+SPEC CHECKSUMS:
+  waterflow: e3caf695a7b64a5cb4014ce05bf947e4ecedc21b
+
+PODFILE CHECKSUM: afb4de1f3208c5397e8f93f518eca0d94f56141f
+
+COCOAPODS: 1.0.1

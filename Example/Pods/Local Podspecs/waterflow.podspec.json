@@ -1,0 +1,22 @@
+{
+  "name": "waterflow",
+  "version": "0.1.0",
+  "summary": "A short description of waterflow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mh_doit@163.com/waterflow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mh_doit@163.com": "mh_doit@163.com"
+  },
+  "source": {
+    "git": "https://github.com/mh_doit@163.com/waterflow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "waterflow/Classes/**/*"
+}
