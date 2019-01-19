@@ -13,11 +13,11 @@
 		2DE0BB9308B8609AE209318D7B1C2E14 /* waterflow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FF1089B26025E0F8F40E8D7C2BC537 /* waterflow-dummy.m */; };
 		33CAE4A1475BDE53458F8BBD2B3874B9 /* waterflow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DAD79269F0A1EF21E30CFD6D0C40E6 /* waterflow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B5DE99AEC9B3C759B4E1A4C20EE70A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8A36A2A4D91B94B552F809244A55E146 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9DD35704E784205F0E6CD5537B6B34 /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A36A2A4D91B94B552F809244A55E146 /* MHViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9DD35704E784205F0E6CD5537B6B34 /* MHViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		957BAA42996377713A7614A0EFE8E680 /* Pods-waterflow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A6E3FD52531BCBAFD4CF2C2C70D73A2 /* Pods-waterflow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF1396A5EEB9FE1A7B81B4CA9994C84F /* Pods-waterflow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DA3EBEA7A0737E5394E78060642EC8 /* Pods-waterflow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C00E1D57EEE0C4125A5DFC56272D8DBE /* Pods-waterflow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1491A5F1B68BABEC428532A72B0E587 /* Pods-waterflow_Example-dummy.m */; };
-		D2F528DC125D05A503CCA200B70EC4AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3A5A4FB7D083EAE328703965B6D01 /* ViewController.m */; };
+		D2F528DC125D05A503CCA200B70EC4AA /* MHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3A5A4FB7D083EAE328703965B6D01 /* MHViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +33,25 @@
 /* Begin PBXFileReference section */
 		11DAD79269F0A1EF21E30CFD6D0C40E6 /* waterflow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "waterflow-umbrella.h"; sourceTree = "<group>"; };
 		1E0DDD7C3B63DBD50CC283B26AAE5549 /* Pods-waterflow_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-waterflow_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2CC15499924D8881B24D222BE02B0B37 /* waterflow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = waterflow.modulemap; sourceTree = "<group>"; };
+		2CC15499924D8881B24D222BE02B0B37 /* waterflow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = waterflow.modulemap; sourceTree = "<group>"; };
 		338148C0B568AB322227734D3C357263 /* Pods-waterflow_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-waterflow_Tests-resources.sh"; sourceTree = "<group>"; };
-		391E7C2B69A773EAEC8AC1F5B2EDECFD /* Pods_waterflow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_waterflow_Example.framework; path = "Pods-waterflow_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		391E7C2B69A773EAEC8AC1F5B2EDECFD /* Pods_waterflow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterflow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A26259C2431857FF6D1676D9E9890EC /* Pods-waterflow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-waterflow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		40E0705E3C2CB55615E3B4097E6B3721 /* Pods-waterflow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-waterflow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		43F80A13E3B3B71611C3EAA5F7381616 /* Pods-waterflow_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-waterflow_Example-resources.sh"; sourceTree = "<group>"; };
-		48E62D73A53D77B8AC2CC4D64839ED0D /* Pods-waterflow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-waterflow_Example.modulemap"; sourceTree = "<group>"; };
+		48E62D73A53D77B8AC2CC4D64839ED0D /* Pods-waterflow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-waterflow_Example.modulemap"; sourceTree = "<group>"; };
 		49DD69AEDFAB8ED859B91868C522DC5D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B49451A80E374E44048703A0639DD2B /* Pods-waterflow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-waterflow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		51D0A713ED6FF2A714A93C70BD2BB452 /* waterflow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = waterflow.xcconfig; sourceTree = "<group>"; };
-		5CB3A5A4FB7D083EAE328703965B6D01 /* ViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CB3A5A4FB7D083EAE328703965B6D01 /* MHViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MHViewController.m; sourceTree = "<group>"; };
 		6A6E3FD52531BCBAFD4CF2C2C70D73A2 /* Pods-waterflow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-waterflow_Example-umbrella.h"; sourceTree = "<group>"; };
-		6E9DD35704E784205F0E6CD5537B6B34 /* ViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E9DD35704E784205F0E6CD5537B6B34 /* MHViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MHViewController.h; sourceTree = "<group>"; };
 		721D0EE764199043B8A50DEF1C6F1953 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FD29682E706EA0EE4E534EC04122A45 /* Pods-waterflow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-waterflow_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		948FCBD86015D181D20168BE54466C8C /* Pods_waterflow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_waterflow_Tests.framework; path = "Pods-waterflow_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		986FEDBC9776FE2F7BA17C92A168780A /* waterflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = waterflow.framework; path = waterflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B55259226583A549F04EA235077B6BCC /* Pods-waterflow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-waterflow_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948FCBD86015D181D20168BE54466C8C /* Pods_waterflow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_waterflow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		986FEDBC9776FE2F7BA17C92A168780A /* waterflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = waterflow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55259226583A549F04EA235077B6BCC /* Pods-waterflow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-waterflow_Tests.modulemap"; sourceTree = "<group>"; };
 		BF3C09B183074B4B3DCCDFD402F83AF0 /* Pods-waterflow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-waterflow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C4EAE4A0C2E0B3921DD5E4C722FC10F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -131,7 +131,6 @@
 			children = (
 				D4CDD2EEC6DCF961F9E53718552F3286 /* Classes */,
 			);
-			name = waterflow;
 			path = waterflow;
 			sourceTree = "<group>";
 		};
@@ -220,10 +219,9 @@
 		D4CDD2EEC6DCF961F9E53718552F3286 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6E9DD35704E784205F0E6CD5537B6B34 /* ViewController.h */,
-				5CB3A5A4FB7D083EAE328703965B6D01 /* ViewController.m */,
+				6E9DD35704E784205F0E6CD5537B6B34 /* MHViewController.h */,
+				5CB3A5A4FB7D083EAE328703965B6D01 /* MHViewController.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -234,7 +232,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A36A2A4D91B94B552F809244A55E146 /* ViewController.h in Headers */,
+				8A36A2A4D91B94B552F809244A55E146 /* MHViewController.h in Headers */,
 				33CAE4A1475BDE53458F8BBD2B3874B9 /* waterflow-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F528DC125D05A503CCA200B70EC4AA /* ViewController.m in Sources */,
+				D2F528DC125D05A503CCA200B70EC4AA /* MHViewController.m in Sources */,
 				2DE0BB9308B8609AE209318D7B1C2E14 /* waterflow-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

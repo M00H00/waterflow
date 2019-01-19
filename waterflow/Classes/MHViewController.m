@@ -6,20 +6,20 @@
 //  Copyright © 2016年 电信中国. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MHViewController.h"
 
 #define MHCustomColorRGBA [UIColor colorWithRed:arc4random_uniform(256) / 255.0 green:arc4random_uniform(256) / 255.0 blue:arc4random_uniform(256) / 255.0 alpha:0.5]
 #define screenHeight [[UIScreen mainScreen]bounds].size.height //屏幕高度
 #define screenWidth [[UIScreen mainScreen]bounds].size.width   //屏幕宽度
 #define colletionCell 3  //设置具体几列
-@interface ViewController ()<UICollectionViewDataSource, UICollectionViewDelegate> {
+@interface MHViewController ()<UICollectionViewDataSource, UICollectionViewDelegate> {
     UICollectionView *_collectionView;
     NSMutableArray  *hArr; //记录每个cell的高度
 }
 
 @end
 
-@implementation ViewController
+@implementation MHViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
     hArr = [[NSMutableArray alloc] init];
